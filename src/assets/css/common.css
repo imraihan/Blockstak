@@ -1,0 +1,68 @@
+@font-face {
+  font-family: ICF;
+  /* src: url("/fonts/"); */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: ICF;
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+img {
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+h1.hero_title {
+  font-size: clamp(1.56rem, calc(1.38rem + 0.94vw), 2.5rem);
+  line-height: clamp(2rem, calc(1.8rem + 1vw), 3rem);
+}
+
+/* 28 */
+h2.section_title {
+  font-size: clamp(1.25rem, calc(1.15rem + 0.5vw), 1.75rem);
+  line-height: clamp(1.56rem, calc(1.45rem + 0.56vw), 2.13rem);
+}
+
+/* 20 */
+h3.card_title {
+  font-size: clamp(1.13rem, calc(1.1rem + 0.13vw), 1.25rem);
+}
+/* 18 */
+h4.footer_sub_title {
+  font-size: clamp(1.06rem, calc(1.05rem + 0.06vw), 1.13rem);
+}
+/* 16 */
+h5.collection_title {
+  font-size: clamp(0.94rem, calc(0.93rem + 0.06vw), 1rem);
+}
+
+/* 14 */
+p.paragraph {
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}

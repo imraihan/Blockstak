@@ -1,0 +1,1 @@
+Install Node.js and Reactjs to run the project.

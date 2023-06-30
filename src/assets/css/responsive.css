@@ -1,0 +1,185 @@
+@media screen and (max-width: 991px) {
+  #collect_art .collect_art_content {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  #collect_art .img_container .circle {
+    width: 130px;
+    bottom: 70px;
+  }
+
+  #collect_art .text_container {
+    text-align: center;
+  }
+
+  #collect_art .text_container .numeric_container {
+    justify-content: center;
+  }
+
+  #collect_art .collect_art_content {
+    gap: 60px;
+  }
+
+  #nft_art .nft_art_content {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: flex-start;
+  }
+
+  #top_collection .top_collection_content {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  #top_collection .middle {
+    border-right: none;
+  }
+
+  #sell_nft .sell_nft_content {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 50px;
+  }
+
+  #feature_nft .feature_content {
+    gap: 35px;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+  }
+
+  #feature_nft .section_title {
+    text-align: center;
+  }
+
+  #discover_nft .filter_button {
+    display: flex;
+    width: 135px;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-end;
+    background: rgba(220, 220, 220, 0.2);
+    border-radius: 100px;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #371c87;
+    margin: 0 0 0 auto;
+  }
+
+  #discover_nft .option_container .desktop {
+    display: none;
+  }
+
+  #discover_nft .filters_list .tab {
+    display: none;
+  }
+
+  #discover_nft .filters_list .tab.show {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background: #dcdcdc33;
+    padding: 20px 0 20px 20px;
+    border-radius: 8px;
+    transition: 0.5s;
+  }
+
+  #discover_nft .discover_nft_content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #sell_nft .text_container {
+    align-items: center;
+  }
+
+  #sell_nft .text_container .sell_paragraph {
+    text-align: center;
+  }
+
+  #sell_nft .text_container button {
+    padding: 15px 20px;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #collect_art .text_container button {
+    padding: 10px 20px;
+    background: #3d00b7;
+    font-size: 15px;
+    margin: 25px 0 20px;
+  }
+
+  #collect_art .collect_art_content {
+    gap: 30px;
+  }
+
+  #sell_nft .text_container {
+    gap: 15px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  #collect_art .img_container .circle {
+    width: 120px;
+    bottom: 60px;
+  }
+
+  #collect_art .img_container .images {
+    width: 70%;
+    margin: auto;
+  }
+
+  #collect_art .img_container .lower_part {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  #collect_art .img_container .lower_part::after {
+    left: unset;
+    width: 70%;
+  }
+
+  #feature_nft .img_container {
+    flex-direction: column;
+  }
+
+  #feature_nft .img_container .big_img {
+    max-width: 330px;
+  }
+
+  #feature_nft .three_img_container {
+    flex-direction: row;
+  }
+
+  #sell_nft .img_container {
+    flex-direction: column;
+  }
+
+  #discover_nft .discover_nft_content {
+    grid-template-columns: 1fr;
+  }
+
+  #feature_nft .three_img_container img {
+    /* width: auto; */
+  }
+
+  #feature_nft {
+    padding: 50px 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #collect_art .img_container .circle {
+    width: 90px;
+    bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 363px) {
+  #collect_art .text_area h2 {
+    font-size: 18px;
+  }
+}

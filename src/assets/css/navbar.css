@@ -1,0 +1,186 @@
+#navbar_container {
+    padding: 40px 0;
+    border-bottom: 1px solid #efefef;
+  }
+  
+  #navbar_container .navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  #navbar_container .container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+  #navbar_container .brand_logo {
+    min-width: 110px;
+  }
+  
+  #navbar_container .list_item {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 42px;
+    font-weight: 500;
+    z-index: 99;
+  }
+  
+  #navbar_container .search_btn_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  #navbar_container .search_btn_container .btn_upload {
+    padding: 18px 40px;
+    height: 50px;
+    color: #fff;
+    background: #3d00b7;
+    border-radius: 60px;
+    border: 1px solid #3d00b7;
+    cursor: pointer;
+  }
+  
+  #navbar_container .search_btn_container .btn_upload:hover {
+    color: #3d00b7;
+    background-color: #fff;
+    border: 2px solid #3d00b7;
+  }
+  
+  #navbar_container .search_btn_container .btn_wallet {
+    color: #3d00b7;
+    padding: 18px 22px;
+    height: 50px;
+    width: 156px;
+    border: 2px solid #3d00b7;
+    border-radius: 60px;
+    cursor: pointer;
+  }
+  
+  #navbar_container .search_btn_container .btn_wallet:hover {
+    color: #fff;
+    background: #3d00b7;
+    border: 1px solid #3d00b7;
+  }
+  
+  #navbar_container .search_btn_container .search_box {
+    width: 300px;
+    height: 50px;
+    background: #ffffff;
+    border: 2px solid #efefef;
+    border-radius: 100px;
+    padding: 15px;
+  }
+  
+  #navbar_container .hamburger_btn_wallet,
+  #navbar_container .hamburger_search_box,
+  #navbar_container .hamburger_btn_upload,
+  .ham {
+    display: none;
+  }
+  
+  @media screen and (min-width: 992px) and (max-width: 1170px) {
+  }
+  
+  @media screen and (max-width: 991px) {
+    #navbar_container .search_btn_container {
+      display: none;
+    }
+  
+    #navbar_container .hamburger_btn_wallet,
+    #navbar_container .hamburger_btn_upload,
+    .ham {
+      display: block;
+    }
+  
+    #navbar_container .list_item {
+      position: fixed;
+      right: 0;
+      top: 0;
+      background: #efefef;
+      width: 250px;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      color: #3d00b7;
+      transition: 0.5s;
+      cursor: pointer;
+    }
+
+    #navbar_container .list_item a{ 
+      cursor: pointer;
+    }
+  
+    #navbar_container .ham {
+      position: fixed;
+      right: 40px;
+      top: 0px;
+      z-index: 1;
+      background-color: black;
+      padding: 5px 20px;
+      transition: 0.5s;
+      color: #fff;
+      z-index: 10000;
+    }
+  
+    #navbar_container .navbar .hamburger_search_box {
+      display: block;
+      width: 200px;
+      height: 50px;
+      background: #ffffff;
+      border: 2px solid #efefef;
+      border-radius: 100px;
+      padding: 15px;
+    }
+    /* #navbar_container .marketplace .resource .about .hamburger_btn_upload .hamburger_btn_wallet {
+      cursor: pointer;
+    } */
+    #navbar_container .navbar {
+      justify-content: space-between;
+    }
+  
+    #navbar_container {
+      padding-right: 100px;
+    }
+  
+    #navbar_container .ham {
+      top: 42px;
+      background-color: #3d00b7;
+      padding: 10px;
+      border-radius: 50%;
+    }
+  
+    #navbar_container .hamburger_btn_upload {
+      color: #3d00b7;
+      padding: 12px 15px;
+      height: 50px;
+      width: 100px;
+      border: 2px solid #3d00b7;
+      border-radius: 60px;
+    }
+  
+    #navbar_container .hamburger_btn_wallet {
+      padding: 10px 30px;
+      width: 156px;
+      height: 50px;
+      color: #fff;
+      background: #3d00b7;
+      border-radius: 60px;
+      border: 1px solid #3d00b7;
+    }
+  }
+  
+  @media screen and (max-width:575px) {
+    #navbar_container .navbar .hamburger_search_box {
+        width: 150px; 
+      }
+
+      #navbar_container .navbar{
+        gap: 30px;
+      }
+  }
