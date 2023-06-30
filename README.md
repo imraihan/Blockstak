@@ -1,1 +1,1 @@
-Install Node.js and Reactjs to run the project.
+To install this project "clone" and "install npm node modules" To run this in the project directory, you can run: npm start Runs the app in the development mode. Open http://localhost:3000 to view it in your browser. About this Project In this application, I use html, css, react, react hooks and json data.
