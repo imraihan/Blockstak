@@ -1,7 +1,9 @@
 /* ========================================== */
 /* ========== DISCOVER AND COLLECT  ========= */
 /* =========================================== */
-
+#collect_art {
+  margin-top: 57px;
+}
 #collect_art .collect_art_content {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -475,7 +477,7 @@
 #discover_nft {
   background: rgba(217, 224, 236, 0.2);
   margin: 140px 0 10px;
-  padding: 65px 0 50px;
+  padding: 65px 0 37px;
 }
 
 #discover_nft .option_container {
@@ -612,7 +614,7 @@
 #discover_nft .btn_more_container {
   display: flex;
   justify-content: center;
-  margin: 75px 0 67px;
+  margin: 55px 0 0px;
 }
 
 #discover_nft .btn_more_nfts {
@@ -632,7 +634,7 @@
 
 @media screen and (max-width: 991px) {
   #discover_nft .btn_more_container {
-    margin: 45px 0 30px;
+    margin: 45px 0 0px;
   }
 }
 
@@ -685,7 +687,7 @@
 /* =============================== */
 
 #footer {
-  margin: 12px 0 24px;
+  margin: 79px 0 24px;
 }
 
 #footer .footer_content {
@@ -792,6 +794,9 @@
     align-items: start;
     grid-template-columns: repeat(2, 1fr);
     gap: 80px;
+  }
+  #footer {
+    margin-top: 50px;
   }
 
   #footer .social {
